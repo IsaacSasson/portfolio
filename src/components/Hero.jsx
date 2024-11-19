@@ -46,7 +46,7 @@ const Hero = ({ scrollContainer }) => {
           <Position />
         </div>
         <div className="flex-1 flex justify-start lg:justify-end mt-4 sm:mt-14 ml-8 xs:ml-[-4vh] sm:ml-[-17vh] md:ml-[-26vh] lg:mt-10 2xl:mt-0">
-          <div className="font-bold text-[20px] sm:text-[30px] md:text-[36px] 2xl:text-[46px] sm:leading-[40px] md:leading-[50px] 2xl:leading-[60px] streaky-glow max-w-sm 2xl:max-w-lg text-white text-left">
+          <div className="font-bold text-[20px] sm:text-[30px] md:text-[36px] 2xl:text-[46px] sm:leading-[40px] md:leading-[50px] 2xl:leading-[60px] max-w-sm 2xl:max-w-lg text-white text-left">
             I love crafting <br /> captivating experiences for the digital world
             to savor.
           </div>
@@ -54,11 +54,10 @@ const Hero = ({ scrollContainer }) => {
       </div>
 
       {/* Parallax Images */}
-      <img className="parallax__layer parallax__layer1" src="/parallax/1First-transformed.png" alt="Layer One" />
-      <img className="parallax__layer parallax__layer2" src="/parallax/2Second-transformed.png" alt="Layer Two" />
-      <img className="parallax__layer parallax__layer3" src="/parallax/3Three-transformed.png" alt="Layer Three" />
-      <img className="parallax__layer parallax__layer4" src="/parallax/4Four-transformed.png" alt="Layer Four" />
-      <img className="parallax__layer parallax__layer5" src="/parallax/5Five-transformed.png" alt="Layer Five" />
+      <img className="parallax__layer parallax__layer1" src="/parallax/4Fourth.png" alt="Layer One" />
+      <img className="parallax__layer parallax__layer2" src="/parallax/3Third.png" alt="Layer Two" />
+      <img className="parallax__layer parallax__layer3" src="/parallax/2Second.png" alt="Layer Three" />
+      <img className="parallax__layer parallax__layer4" src="/parallax/1First.png" alt="Layer Four" />
 
       {/* Chibi Canvas */}
       {/* <ChibiCanvas scrollContainer={scrollContainer} /> */}
