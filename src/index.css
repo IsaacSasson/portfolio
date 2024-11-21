@@ -89,12 +89,8 @@ body {
 }
 
 .parallax__layer4 {
-  --parallax-speed: 50;
-  z-index: 6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  --parallax-speed: 100;
+  z-index: 5;
 }
 
 /* Media Query for Parallax Content */
@@ -257,3 +253,45 @@ body {
   background-color: #5c5c5c;
 }
 
+/* Add responsiveness for Hero Section */
+@media (max-width: 768px) {
+  .parallax__layer1 {
+    --parallax-speed: 100;
+  }
+  .parallax__layer2 {
+    --parallax-speed: 90;
+    z-index: 3;
+  }
+  
+  .parallax__layer3 {
+    --parallax-speed: 80;
+    z-index: 4;
+  }
+  
+  .parallax__layer4 {
+    --parallax-speed: 60;
+    z-index: 5;
+  }
+
+  .parallax__content {
+    flex-direction: column;
+    padding: 0 1rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 10% !important;
+  }
+
+  .parallax__content h1 {
+    font-size: 4rem; /* Adjust the heading size */
+    line-height: 3rem;
+  }
+
+  .parallax__content div {
+    font-size: 2rem; /* Adjust the subtext size */
+    line-height: 1.5rem;
+  }
+
+  .parallax__content p {
+    display: none;
+  }
+}

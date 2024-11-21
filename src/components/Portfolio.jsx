@@ -47,10 +47,10 @@ const ProjectCard = ({ index, name, description, image, spline }) => {
             variants={fadeIn("up", "spring", 0, 0.75)}
             className="rounded-lg p-4 sm:p-6 max-w-lg"
           >
-            <h3 className="text-coinpulsePrimary font-bold text-md sm:text-lg md:text-2xl lg:text-5xl">
+            <h3 className="text-coinpulsePrimary font-bold text-2xl lg:text-5xl">
               {name}
             </h3>
-            <p className="mt-4 text-coinpulseSecondary text-sm sm:text-md lg:text-2xl">
+            <p className="mt-4 text-coinpulseSecondary text-lg lg:text-2xl">
               {description}
             </p>
             {/* "View Website" Link */}
@@ -58,7 +58,7 @@ const ProjectCard = ({ index, name, description, image, spline }) => {
               href="https://isaacsasson.com/CoinPulse"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block text-coinpulseSecondary hover:text-coinpulseHighlight text-sm sm:text-md lg:text-lg underline"
+              className="mt-6 inline-block text-coinpulseSecondary hover:text-coinpulseHighlight text-lg lg:text-xl underline"
             >
               View Website
             </a>
