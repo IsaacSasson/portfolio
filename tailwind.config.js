@@ -4,10 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#2a232b", // Deep background color
-        secondary: "#cf8ba9", // Soft pink-purple for highlights
-        tertiary: "#5b3e5c", // Rich mauve for elements
-        quaternary: "#9a8c98", // Muted lavender for subtle accents
+        primary: "#20035B", // Existing deep background color
+        secondary: "#4c1d95", // Existing soft pink-purple for highlights
+        tertiary: "#5b3e5c", // Existing rich mauve for elements
+        quaternary: "#9a8c98", // Existing muted lavender for subtle accents
+        coinpulsePrimary: "#a5f3fc", // CoinPulse Dark Gray
+        coinpulseAccent: "#164E63", // CoinPulse Vivid Red
+        coinpulseSecondary: "#7dd3fc", // CoinPulse Deep Maroon
+        coinpulseHighlight: "#A5F3FC", // CoinPulse Rich Magenta
       },
       screens: {
         'xs': "450px",

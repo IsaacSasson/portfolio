@@ -68,23 +68,11 @@ import {
   
   const portfolio = [
     {
-      name: "Open Source Computer Science Repo",
+      name: "Crypto Predictor App",
       description:
-        "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
-      image: oscs,
+        "This project uses a Random Forest Classifier with CoinGecko API data to predict daily cryptocurrency price trends.",
+      spline: "https://prod.spline.design/EQgbsJzmSUxG5igX/scene.splinecode",
     },
-    {
-      name: "Dev Notes",
-      description:
-        "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
-      image: devnotes,
-    },
-    {
-      name: "Visually Understanding Algorithms",
-      description:
-        "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-      image: algorithms,
-    },
-  ];
+  ];  
   
   export { experiences, portfolio };

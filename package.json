@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
+    "@splinetool/react-spline": "^4.0.0",
     "framer-motion": "^9.0.7",
     "gsap": "^3.12.5",
     "maath": "^0.5.2",

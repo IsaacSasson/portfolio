@@ -54,10 +54,10 @@ const Hero = ({ scrollContainer }) => {
       </div>
 
       {/* Parallax Images */}
-      <img className="parallax__layer parallax__layer1" src="/parallax/4Fourth.png" alt="Layer One" />
-      <img className="parallax__layer parallax__layer2" src="/parallax/3Third.png" alt="Layer Two" />
-      <img className="parallax__layer parallax__layer3" src="/parallax/2Second.png" alt="Layer Three" />
-      <img className="parallax__layer parallax__layer4" src="/parallax/1First.png" alt="Layer Four" />
+      <img className="parallax__layer parallax__layer1" src="/parallax/4th.svg" alt="Layer One" />
+      <img className="parallax__layer parallax__layer2" src="/parallax/3rd.svg" alt="Layer Two" />
+      <img className="parallax__layer parallax__layer3" src="/parallax/2nd.svg" alt="Layer Three" />
+      <img className="parallax__layer parallax__layer4" src="/parallax/1st.svg" alt="Layer Four" />
 
       {/* Chibi Canvas */}
       {/* <ChibiCanvas scrollContainer={scrollContainer} /> */}
