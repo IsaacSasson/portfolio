@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "#20035B", // Existing deep background color
-        secondary: "#4c1d95", // Existing soft pink-purple for highlights
-        tertiary: "#5b3e5c", // Existing rich mauve for elements
-        quaternary: "#9a8c98", // Existing muted lavender for subtle accents
+        secondary: "#8756F1", // Existing soft pink-purple for highlights
+        tertiary: "#8756F1", // Existing rich mauve for elements
+        quaternary: "#F5F5F5", // Existing muted lavender for subtle accents
         coinpulsePrimary: "#a5f3fc", // CoinPulse Dark Gray
         coinpulseAccent: "#164E63", // CoinPulse Vivid Red
         coinpulseSecondary: "#7dd3fc", // CoinPulse Deep Maroon

@@ -1,6 +1,7 @@
 import ChibiCanvas from "./Chibi"; // Import your Chibi component
 import Position from "./Position";
 import { useEffect, useRef } from "react";
+import { SectionWrapper } from "../hoc";
 
 const Hero = ({ scrollContainer }) => {
   const heroRef = useRef(null);
@@ -65,4 +66,4 @@ const Hero = ({ scrollContainer }) => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "hero");
